@@ -29,7 +29,7 @@
  
  h1 {
    text-align: center;
-   color: var(--primary-color);
+   color: black;;
  }
  
  form {
@@ -43,13 +43,13 @@
  label {
    display: block;
    margin-bottom: 10px;
-   color: var(--primary-color);
+   color: black
  }
  
  input[type="text"] {
    padding: 10px;
    background: var(--third-background);
-   border: 1px solid var(--primary-color);
+   border: 1px solid black;
    border-radius: 5px;
    font-size: 16px;
    width: 72%;
@@ -58,8 +58,8 @@
  
  button {
    background-color: var(--secondary-background);
-   color: var(--primary-color);
-   border: 1px solid var(--primary-color);
+   color: black;
+   border: 1px solid black;
  
    border-radius: 5px;
    padding: 10px;
@@ -69,7 +69,7 @@
  
  button:hover {
    background-color: var(--primary-color);
-   color: var(--primary-background);
+   color: black;
    border: 1px solid var(--primary-background);
  }
  
@@ -78,9 +78,8 @@
    background-color: var(--secondary-background);
    padding: 20px;
    border-radius: 5px;
- 
    margin-top: 2rem;
-   color: var(--primary-color);
+   color: black;
    display: none;
  
  }
@@ -128,7 +127,7 @@ nav>a {
 }
 
 	nav>a>button{
-		color: var(--primary-color);
+		color: black;
     width: 100%;
 	}
 
